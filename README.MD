@@ -1,8 +1,8 @@
 ------------------------------------------
 PDF Splitter
 ------------------------------------------
-Author: [Your Name]
-Date: [Today's Date]
+Author: Kuray Karaaslan
+Date: 17.05.2023
 
 Description:
 This Python script splits a PDF file into individual pages and names them according to names provided in a CSV file.
