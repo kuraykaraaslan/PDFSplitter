@@ -1,0 +1,4 @@
+## output folder files
+./output/*.pdf
+## input.csv
+input.csv
