@@ -30,6 +30,5 @@ Notes:
 - The script assumes the number of names in the CSV file matches the number of pages in the PDF. If they don't match, the script will terminate.
 - Any non-safe characters for filenames (/ \ : * ? " < > | and spaces) in the names from the CSV file will be replaced with safe ones (- or _).
 - The script provides feedback about the progress of the splitting process.
-- IMPORTANT: The first row of the CSV file should contain the word "NAMES". If it does not, the script may not work as expected.
 
 ------------------------------------------
