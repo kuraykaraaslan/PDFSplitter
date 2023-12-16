@@ -3,9 +3,11 @@ import pandas as pd
 from PyPDF2 import PdfReader, PdfWriter
 
 def split_pdf_pages(pdf_path, csv_path, output_folder):
-    # Open csv file using pandas
-    df = pd.read_csv(csv_path, encoding='ISO-8859-1')
-    names = df.iloc[:, 0]  # assuming names are in the first column
+    # Open csv file using pandas without a header row
+    df = pd.read_csv(csv_path, encoding='ISO-8859-1', header=None)
+
+    # Get list of names
+    names = df[0].tolist()
 
     # Open pdf file
     pdf = PdfReader(pdf_path)
